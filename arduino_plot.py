@@ -16,7 +16,7 @@ filename = 'D:/Desktop/final_data/1080ti/overall/timespy.csv'
 count = 0
 with open(filename, 'r', encoding='utf-8') as file_to_read:
     while True:
-        lines = file_to_read.readline()  # 整行读取数据
+        lines = file_to_read.readline()  # read line
         count = count + 1
         if not lines:
             break
