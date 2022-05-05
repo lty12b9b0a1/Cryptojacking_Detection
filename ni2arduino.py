@@ -7,7 +7,7 @@ csv_writer.writerow([8920])
 count = 0
 with open(filename, 'r', encoding='utf-8') as file_to_read:
     while True:
-        lines = file_to_read.readline()  # 整行读取数据
+        lines = file_to_read.readline()  # read line
         if not lines:
             break
         if count >= 5:
